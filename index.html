@@ -6,9 +6,9 @@
 <title>The Rising Sun, Mill Hill | Family-run Italian pub on Highwood Hill</title>
 <meta name="description" content="A 16th-century pub on Highwood Hill, Mill Hill, run by the Delnevo brothers. Italian food with an Asian twist, Neapolitan pizza, Sunday roasts, a wisteria garden and a warm welcome for families and dogs.">
 <meta name="robots" content="noindex, nofollow">
-<meta name="theme-color" content="#FBF4E8">
+<meta name="theme-color" content="#F6EFDF">
 <meta property="og:title" content="The Rising Sun, Mill Hill">
-<meta property="og:description" content="Family-run since the Delnevo brothers took the keys. Pizza, pasta, Sunday roasts and a seat at our table.">
+<meta property="og:description" content="Italian family cooking in a sixteenth-century inn on Highwood Hill. Pizza, pasta, Sunday roasts. Run by the Delnevo brothers.">
 <meta property="og:type" content="website">
 <meta property="og:image" content="assets/img/front.jpg">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
@@ -37,7 +37,7 @@
 <link rel="stylesheet" href="motion-kit/amp-motion.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Figtree:wght@400;500;600&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
 <link rel="preload" as="image" href="assets/img/front.jpg" imagesrcset="assets/img/front-900.jpg 900w, assets/img/front.jpg 1800w" imagesizes="100vw">
 <link rel="stylesheet" href="css/style.css">
 </head>
@@ -52,12 +52,12 @@
     </a>
     <button class="nav-toggle" aria-expanded="false" aria-controls="nav"><span class="sr-only">Menu</span><span class="bars" aria-hidden="true"></span></button>
     <nav id="nav" class="nav" aria-label="Main">
-      <a href="#family">Our family</a>
+      <a href="#family">Our story</a>
       <a href="#menus">Menus</a>
       <a href="#sunday">Sundays</a>
       <a href="#home">Dine@Home</a>
       <a href="#visit">Find us</a>
-      <a class="btn btn-brick nav-book" href="https://www.sevenrooms.com/reservations/therisingsunpub" target="_blank" rel="noopener">Book a table</a>
+      <a class="btn btn-red nav-book" href="https://www.sevenrooms.com/reservations/therisingsunpub" target="_blank" rel="noopener">Book a table</a>
     </nav>
   </div>
 </header>
@@ -66,21 +66,21 @@
 
 <!-- ============ HERO ============ -->
 <section class="hero" id="top">
-  <picture class="hero-photo">
-    <img src="assets/img/front.jpg" srcset="assets/img/front-900.jpg 900w, assets/img/front.jpg 1800w" sizes="100vw" alt="The Rising Sun's brick front covered in wisteria, with picnic benches outside" width="1800" height="1199" fetchpriority="high">
-  </picture>
-  <div class="hero-card">
-    <svg class="sun" viewBox="0 0 120 64" aria-hidden="true" data-motion="draw">
-      <path d="M14 58 A46 46 0 0 1 106 58" />
-      <path d="M60 4 V14 M24 20 L31 27 M96 20 L89 27 M6 42 L16 44 M114 42 L104 44" />
-      <path d="M2 58 H118" />
+  <figure class="hero-photo" data-motion="unveil">
+    <img src="assets/img/front.jpg" srcset="assets/img/front-900.jpg 900w, assets/img/front.jpg 1800w" sizes="100vw" alt="The Rising Sun's brick front and pub sign, covered in wisteria, with picnic benches outside" width="1800" height="1199" fetchpriority="high">
+  </figure>
+  <div class="wrap intro">
+    <svg class="emblem" viewBox="0 0 120 40" aria-hidden="true" data-motion="draw">
+      <path d="M36 34 A24 24 0 0 1 84 34" />
+      <path d="M60 2 V8 M41 10 L45 15 M79 10 L75 15 M28 22 L34 24 M92 22 L86 24" />
+      <path d="M2 34 H118" />
     </svg>
-    <p class="note">Come in, come in…</p>
-    <h1 data-motion="lines">Pull up a chair.<br>You're family here.</h1>
-    <p class="lede" data-motion="rise">A 16th-century pub on Highwood Hill, run by the Delnevo brothers. Italian cooking with an Asian twist, pizza that tastes of Napoli, and a Sunday roast to rival mum's.</p>
+    <p class="eyebrow">Benvenuti · Highwood Hill, Mill Hill</p>
+    <h1 data-motion="lines">Italian family cooking in a sixteenth-century inn</h1>
+    <p class="lede" data-motion="rise">Run by the Delnevo brothers. Neapolitan pizza, fresh pasta and generous seasonal plates, with a few flavours from further east, and a Sunday roast to rival mum's.</p>
     <div class="hero-cta" data-motion="rise">
-      <a class="btn btn-brick" href="https://www.sevenrooms.com/reservations/therisingsunpub" target="_blank" rel="noopener" data-motion="nudge">Book a table</a>
-      <a class="btn btn-ghost" href="#menus">See the menus</a>
+      <a class="btn btn-red" href="https://www.sevenrooms.com/reservations/therisingsunpub" target="_blank" rel="noopener" data-motion="nudge">Book a table</a>
+      <a class="btn btn-line" href="#menus">See the menus</a>
     </div>
     <p class="hero-meta" data-motion="rise">Open Tuesday to Sunday · <a href="tel:+442089591357">020 8959 1357</a></p>
   </div>
@@ -89,17 +89,14 @@
 <!-- ============ FAMILY STORY ============ -->
 <section class="family" id="family">
   <div class="wrap family-grid">
+    <figure class="frame frame-tall" data-motion="unveil"><img src="assets/img/orange-room.jpg" srcset="assets/img/orange-room-800.jpg 800w, assets/img/orange-room.jpg 1400w" sizes="(min-width: 900px) 45vw, 100vw" alt="The dining room with orange trees hanging from the beams" width="1400" height="933" loading="lazy"></figure>
     <div class="family-copy">
-      <p class="eyebrow">Our family</p>
-      <h2 data-motion="rise">Two brothers, one old pub, and a lot of regulars who feel like cousins</h2>
-      <p data-motion="rise">The Rising Sun has been pouring pints on Highwood Hill since the 1500s. Today it's looked after by the Delnevo brothers, who brought their Italian family's cooking with them and added a little of the East along the way.</p>
-      <p data-motion="rise">Plenty of our guests have been coming for years. They know which table catches the evening sun and exactly how they like their pizza. Come once and we'll remember you next time.</p>
-      <p class="sign" data-motion="rise">With love, the Delnevo brothers</p>
-    </div>
-    <div class="snaps" data-motion="unveil" data-motion-stagger>
-      <figure class="snap snap-a"><img src="assets/img/orange-room-800.jpg" alt="The dining room with orange trees hanging from the beams" width="800" height="533" loading="lazy"><figcaption>The orange-tree room</figcaption></figure>
-      <figure class="snap snap-b snap-empty"><div class="snap-ph" role="img" aria-label="Photo placeholder: the Delnevo brothers"><span>Photo of the brothers<br>goes here</span></div><figcaption>The Delnevo brothers</figcaption></figure>
-      <figure class="snap snap-c"><img src="assets/img/sage-room-700.jpg" alt="A quieter dining room with sage-green panelling" width="700" height="466" loading="lazy"><figcaption>Our cosy corner</figcaption></figure>
+      <p class="eyebrow">La nostra storia</p>
+      <h2 data-motion="rise">A family kitchen on Highwood Hill</h2>
+      <p data-motion="rise">The Rising Sun has welcomed guests on Highwood Hill since the sixteenth century. Today it is run by the Delnevo brothers, who cook the food their Italian family always has: honest, generous and made to be shared, with a few flavours picked up from further east.</p>
+      <p data-motion="rise">Many of our guests have been coming for years, for a quiet lunch, a long Sunday or a birthday around the big table. However often you visit, you will be looked after like one of the family.</p>
+      <p class="sign" data-motion="rise">— The Delnevo family</p>
+      <figure class="frame frame-small" data-motion="unveil"><div class="frame-ph" role="img" aria-label="Photo placeholder: the Delnevo brothers"><span>Photograph of the Delnevo brothers</span></div></figure>
     </div>
   </div>
 </section>
@@ -107,8 +104,8 @@
 <!-- ============ ROUND OUR TABLE ============ -->
 <section class="welcome">
   <div class="wrap">
-    <p class="eyebrow center">Everyone's welcome</p>
-    <h2 class="center" data-motion="rise">Room at the table for all of you</h2>
+    <p class="eyebrow center">Tutti a tavola</p>
+    <h2 class="center" data-motion="rise">A table for everyone</h2>
     <ul class="welcome-grid" data-motion="rise" data-motion-stagger>
       <li>
         <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="17" cy="13" r="5"/><circle cx="33" cy="17" r="4"/><path d="M8 40c0-8 4-14 9-14s9 6 9 14M26 40c0-6 3-11 7-11s7 5 7 11"/></svg>
@@ -137,8 +134,8 @@
 <!-- ============ MENUS ============ -->
 <section class="menus" id="menus">
   <div class="wrap">
-    <p class="eyebrow center">From our kitchen</p>
-    <h2 class="center" data-motion="rise">Italian at heart, with a little twist from the East</h2>
+    <p class="eyebrow center">Il menù</p>
+    <h2 class="center" data-motion="rise">From our kitchen</h2>
     <p class="center sub" data-motion="rise">A sample of what's cooking. Our menus change with the seasons.</p>
 
     <div class="tabs" role="tablist" aria-label="Menus">
@@ -279,7 +276,7 @@
   <div class="wrap sunday-grid">
     <figure class="sunday-photo" data-motion="unveil"><img src="assets/img/table.jpg" srcset="assets/img/table-800.jpg 800w, assets/img/table.jpg 1400w" sizes="(min-width: 900px) 50vw, 100vw" alt="A table of sharing plates and wine on the green velvet banquette" width="1400" height="1001" loading="lazy"></figure>
     <div class="sunday-copy">
-      <p class="note light">Sunday's sorted</p>
+      <p class="eyebrow light">La domenica</p>
       <h2 data-motion="rise">A Sunday roast to rival mum's</h2>
       <p data-motion="rise">Bring the whole lot of them. Every roast comes with crispy roast potatoes, spring greens, caraway carrots, a proper Yorkshire pudding and plenty of gravy. The full à la carte is on too, for anyone who'd rather have a pizza.</p>
       <ul class="roasts" data-motion="rise" data-motion-stagger>
@@ -296,8 +293,8 @@
 <!-- ============ DINE AT HOME ============ -->
 <section class="home" id="home">
   <div class="wrap">
-    <p class="eyebrow center">Dine@Home</p>
-    <h2 class="center" data-motion="rise">Can't come to us? We'll come to your table</h2>
+    <p class="eyebrow center">A casa · Dine@Home</p>
+    <h2 class="center" data-motion="rise">Our kitchen, at your table</h2>
     <div class="home-grid">
       <div class="home-card" data-motion="rise">
         <h3>Collect from us</h3>
@@ -321,7 +318,7 @@
         <span class="t-name">Tray of brownies</span><span class="t-price">£45</span>
       </a>
       <a class="treat treat-voucher" href="https://www.therisingsunmillhill.com/products/the-rising-sun-e-card" target="_blank" rel="noopener">
-        <span class="voucher-face"><img src="assets/logo-cream.png" alt="" width="753" height="117"><span class="note light">a meal on us</span></span>
+        <span class="voucher-face"><img src="assets/logo-cream.png" alt="" width="753" height="117"><span class="v-sub">gift voucher</span></span>
         <span class="t-name">Gift voucher</span><span class="t-price">any amount</span>
       </a>
     </div>
@@ -331,8 +328,8 @@
 <!-- ============ REVIEWS ============ -->
 <section class="reviews">
   <div class="wrap">
-    <p class="eyebrow center">Kind words</p>
-    <h2 class="center" data-motion="rise">From our extended family</h2>
+    <p class="eyebrow center">Dicono di noi</p>
+    <h2 class="center" data-motion="rise">Kind words from our guests</h2>
     <div class="review-grid" data-motion="rise" data-motion-stagger>
       <blockquote>
         <p>“It's perfect for families, date night or a good catch-up with friends.”</p>
@@ -354,13 +351,13 @@
 <section class="visit" id="visit">
   <div class="wrap visit-grid">
     <div class="visit-copy">
-      <p class="eyebrow">Find us</p>
-      <h2 data-motion="rise">Up on Highwood Hill, just past the wisteria</h2>
+      <p class="eyebrow">Dove siamo</p>
+      <h2 data-motion="rise">Find us on Highwood Hill</h2>
       <address data-motion="rise">137 Marsh Lane, Highwood Hill<br>Mill Hill, London NW7 4EY</address>
       <p class="contact" data-motion="rise"><a href="tel:+442089591357">020 8959 1357</a><br><a href="mailto:info@therisingsunmillhill.com">info@therisingsunmillhill.com</a></p>
       <div class="hero-cta" data-motion="rise">
-        <a class="btn btn-brick" href="https://www.sevenrooms.com/reservations/therisingsunpub" target="_blank" rel="noopener">Book a table</a>
-        <a class="btn btn-ghost" href="https://maps.google.com/?daddr=137%20Marsh%20Ln,%20Highwood%20Hill,%20London%20NW7%204EY" target="_blank" rel="noopener">Get directions</a>
+        <a class="btn btn-red" href="https://www.sevenrooms.com/reservations/therisingsunpub" target="_blank" rel="noopener">Book a table</a>
+        <a class="btn btn-line" href="https://maps.google.com/?daddr=137%20Marsh%20Ln,%20Highwood%20Hill,%20London%20NW7%204EY" target="_blank" rel="noopener">Get directions</a>
       </div>
       <p class="small">We take table bookings for lunch and dinner. For drinks, just pop in.</p>
     </div>
@@ -387,7 +384,7 @@
 <footer class="site-footer">
   <div class="wrap f-top">
     <img class="f-logo" src="assets/logo-cream.png" alt="The Rising Sun" width="753" height="117" loading="lazy">
-    <p class="note light">See you soon, x</p>
+    <p class="f-sub">Cucina italiana · Mill Hill</p>
     <nav class="f-links" aria-label="Footer">
       <a href="#menus">Menus</a>
       <a href="#home">Dine@Home</a>
@@ -403,8 +400,8 @@
 </footer>
 
 <div class="book-bar" aria-label="Quick booking">
-  <a class="btn btn-ghost" href="tel:+442089591357">Call</a>
-  <a class="btn btn-brick" href="https://www.sevenrooms.com/reservations/therisingsunpub" target="_blank" rel="noopener">Book a table</a>
+  <a class="btn btn-line" href="tel:+442089591357">Call</a>
+  <a class="btn btn-red" href="https://www.sevenrooms.com/reservations/therisingsunpub" target="_blank" rel="noopener">Book a table</a>
 </div>
 
 <script defer src="motion-kit/vendor/gsap.min.js"></script>
